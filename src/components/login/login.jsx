@@ -11,16 +11,18 @@ const Login = () => {
             <div>
                 <div className='loginPage'>
                     <div className='flexDivision'>
-                        <div  className='flexLeft'>
-                        <img
-                        src={onboardingLogo}
-                        alt="logo"
-                        // className="SignIn-tick"
-                      />
+                        <div className='flexLeft'>
+                            <img
+                                src={onboardingLogo}
+                                alt="logo"
+                            // className="SignIn-tick"
+                            />
+                            <div className='seamless'>Seamless Workflow</div>
+                            <div className='seamlessContent'>Sync rosters, create and assign impactful video experiences, enrich your flipped classroom, and streamline tedious grading.</div>
                         </div>
-                        <div  className='flexRight'>
-
-                      </div>
+                        <div className='flexRight'>
+                            sfsdddddd
+                        </div>
                     </div>
                 </div>
             </div>

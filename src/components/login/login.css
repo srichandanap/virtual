@@ -1,18 +1,46 @@
 .loginPage {
     height: 100vh;
     padding: 8% 15%;
-    display: flex;
-    align-items: center;
+   
 }
 
 .flexDivision {
     display: flex;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
     align-items: center;
+    justify-content: center;
 }
 
-.flexLeft{
-    flex-basis: 60%;
+.flexLeft {
+    flex-basis: 41%;
     display: flex;
-   
- 
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flexRight{
+    flex-basis: 59%;
+}
+
+.seamless{
+    
+font-family: Biko, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 35px;
+text-align: center;
+color: #2B2B2B;
+}
+
+.seamlessContent{
+font-family: Proxima Nova Soft, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #7A7A7A;
 }
