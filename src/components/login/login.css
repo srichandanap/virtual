@@ -1,0 +1,18 @@
+.loginPage {
+    height: 100vh;
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+}
+
+.flexDivision {
+    display: flex;
+    align-items: center;
+}
+
+.flexLeft{
+    flex-basis: 60%;
+    display: flex;
+   
+ 
+}
