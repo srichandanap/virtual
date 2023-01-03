@@ -1,0 +1,42 @@
+.myCourseMargin{
+    margin: 0rem 12rem;
+    /* padding: 1.2rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .myCoursePath{
+    font-family: 'Biko';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+/* line-height: 30px; */
+color: #2BB5F4;
+
+}
+
+.path{
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 0rem 0rem 1.2rem;
+}
+
+.arrow{
+width:6.59px;
+height:11.17px;
+}
+
+.ongoingPath{
+    font-family: 'Biko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #7A7A7A;
+}
+
+.thumbnailVideo{
+    width: 952px;
+height: 531px;
+}
