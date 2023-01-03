@@ -11,22 +11,29 @@ const Overview = () => {
             <div className='myCourseMargin'>
                 <div className='path'>
                     <div className='myCoursePath'>My Course&nbsp;&nbsp;</div>
-                    <img src={arrow} alt="image" className='arrow'/>
+                    <img src={arrow} alt="image" className='arrow' />
                     <div className='ongoingPath'> &nbsp;&nbsp;Ongoing</div>
                 </div>
-                <div >
+                <div className='courseDetails'>
                     <div>
-                    <img src={thumbnail} alt="image" className='thumbnailVideo'/>
-                    <div>Learn Figma - UI/UX Design Essential Training</div>
-                    <div>7 Chapter | 46 lessons</div>
+                        <img src={thumbnail} alt="image" className='thumbnailVideo' />
+                        <div>Learn Figma - UI/UX Design Essential Training</div>
+                        <div>7 Chapter | 46 lessons</div>
                     </div>
-                    <div>
-
+                    <div className='contents'>
+                        <div className='contentTabs'>
+                            <div className='contentOverview'>
+                                Overview
+                            </div>
+                            <div className='contentOverviewActive'>
+                                Completed
+                            </div>
+                        </div>
                     </div>
                 </div>
 
             </div>
-        </div>
+        </div >
     )
 }
 

@@ -37,6 +37,47 @@ height:11.17px;
 }
 
 .thumbnailVideo{
-    width: 952px;
+    width: 872px;
 height: 531px;
+}
+
+.contents{
+    width: 444px;
+height: 1996px;
+background: #FFFFFF;
+border: 1px solid #F0F0F0;
+border-radius: 6px;
+padding: 15px;
+}
+
+.courseDetails{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contentTabs{
+    display: flex;
+    gap: 1rem;   
+    
+}
+
+.contentOverview{
+ font-family: 'Proxima Nova Soft';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #7A7A7A;
+}
+
+.contentOverviewActive{
+font-family: 'Proxima Nova Soft';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+text-align: center;
+color: #EC5D52;
+border-bottom: 1px solid #EC5D52;
+padding-bottom: 2px;
 }
